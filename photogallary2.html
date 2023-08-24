@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallary No.2</title>
+</head>
+<body>
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        div img{
+             width: 400px;
+             height: 300px;
+             border: 2px solid rgb(57, 24, 88);
+             border-radius: 13px;
+             box-shadow: 4px 7px 7px 0px rgb(65, 62, 62);
+             cursor: pointer;
+             margin: 10px;
+             transition: 400ms;
+        }
+        div img:hover{
+            filter: grayscale(1);
+            transform: scale(1.03);
+        }
+    </style>
+    <div>
+        <img src="img10.jpeg">
+        <img src="img11.jpeg">
+        <img src="img12.jpeg">
+        <img src="img13.jpeg">
+        <img src="img14.jpeg">
+        <img src="img15.jpeg">
+        <img src="img16.jpeg">
+        <img src="img17.jpeg">
+    </div>
+</body>
+</html>
